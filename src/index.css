@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar-brand{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav-link{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: semibold !important;
+    font-style: normal;
+    color: black !important;
+}
+
+.card-title{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card-text{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.btn{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500 !important;
+    font-style: normal;
+}

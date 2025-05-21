@@ -1,0 +1,64 @@
+body {
+    background-color: #F2F2F2 !important;
+}
+
+.toast {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .toast.show {
+    opacity: 1;
+  }
+  .toast {
+    z-index: 9999 !important;      
+    position: fixed !important;   
+  }
+  
+  .fruits-mainHeading{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 5rem;
+    color: #2C5530;
+  }
+
+  .fruits-description {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: semibold !important;
+    font-style: normal;
+    color: black !important;
+  }
+
+  .fruits-card {
+    background-color: #2C5530 !important;
+    display: flex;
+    flex-direction: column;
+    height: 480px !important;
+  }
+  
+  
+
+  .fruits-card-title{
+    color: #FF7A5A !important;
+  }
+  
+  .main-image{
+    width: 600px;
+    height: 400px;
+    border-radius: 25px;
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: contain; /* or cover for cropping */
+    background-color: white;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+    
+  
