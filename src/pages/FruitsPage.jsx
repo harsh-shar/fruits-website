@@ -218,7 +218,7 @@ const FruitsPage = () => {
       <ul className="nav nav-pills py-5 justify-content-center">
         <li className="nav-item">
           <button
-            className={`nav-link bu ${activeTab === 'fruits' ? 'active bg-success text-white' : 'text-black'}`}
+            className={`nav-link ${activeTab === 'fruits' ? 'active bg-success text-white' : 'text-black'}`}
             onClick={() => setActiveTab('fruits')}
           >
             Fruits

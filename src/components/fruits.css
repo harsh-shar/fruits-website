@@ -1,5 +1,6 @@
 body {
-    background-color: #F2F2F2 !important;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%) !important;
+    min-height: 100vh;
 }
 
 .toast {
@@ -30,12 +31,17 @@ body {
     color: black !important;
   }
 
-  .fruits-card {
+.fruits-card {
     background-color: #2C5530 !important;
     display: flex;
     flex-direction: column;
     height: 480px !important;
-  }
+    transition: transform 0.3s ease;
+}
+
+.fruits-card:hover {
+    transform: translateY(-10px);
+}
   
   
 

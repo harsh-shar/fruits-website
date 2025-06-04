@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <div className="container-fluid">
-      <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary container-fluid">
+      <nav className="navbar navbar-expand-lg navbar-light navbar-gradient container-fluid">
         <a className="navbar-brand" href="/">
           Fruits Store
         </a>
