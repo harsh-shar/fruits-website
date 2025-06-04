@@ -50,7 +50,7 @@ const Fruits = (props) => {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <h1 className="modal-title  fs-5" id={`modal-${props.index}`}>
+                <h1 className="modal-title  fs-5" id={`modalLabel-${props.index}`}>
                   Checkout
                 </h1>
                 <button
